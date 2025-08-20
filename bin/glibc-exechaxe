@@ -1,0 +1,2 @@
+#!/bin/bash
+/usr/glibc-duck/glibc --library-path ./lib ./$1
