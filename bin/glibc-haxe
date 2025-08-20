@@ -1,0 +1,10 @@
+#!/bin/bash
+mkdir lib
+ln -s /usr/glibc-duck/lib/* lib/
+cd lib
+ln -s ./assets assets
+ln -s ./manifest manifest
+ln -s ./mods mods
+ln -s ./plugins plugins
+echo use glibc-exechaxe
+sleep 0.5
